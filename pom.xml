@@ -6,7 +6,18 @@
 
   <groupId>org.alpha</groupId>
   <artifactId>java-advanced</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>akka-primer</module>
+    <module>flink-primer</module>
+    <module>kafka-primer</module>
+    <module>mybatis-primer</module>
+    <module>netty-primer</module>
+    <module>spark-primer-in-java</module>
+    <module>spring-primer</module>
+    <module>gibbon</module>
+  </modules>
 
   <name>java-advanced</name>
   <!-- FIXME change it to the project's website -->
