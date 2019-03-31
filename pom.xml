@@ -17,6 +17,9 @@
     <module>spark-primer-in-java</module>
     <module>spring-primer</module>
     <module>gibbon</module>
+    <module>vertx-primer</module>
+    <module>tomcat-primer</module>
+    <module>spring-cloud-gateway-primer</module>
   </modules>
 
   <name>java-advanced</name>
