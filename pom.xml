@@ -20,6 +20,7 @@
     <module>vertx-primer</module>
     <module>tomcat-primer</module>
     <module>spring-cloud-gateway-primer</module>
+      <module>dubbo-primer</module>
   </modules>
 
   <name>java-advanced</name>
