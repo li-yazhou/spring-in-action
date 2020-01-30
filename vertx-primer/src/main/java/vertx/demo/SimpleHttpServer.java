@@ -20,6 +20,7 @@ public class SimpleHttpServer {
 			// 设置响应头
 			response.putHeader("Content-type", "text/html;charset=utf-8");
 
+
 			// 响应数据
 			response.end("Hello World");
 		});

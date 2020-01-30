@@ -16,11 +16,12 @@
     <module>netty-primer</module>
     <module>spark-primer-in-java</module>
     <module>spring-primer</module>
-    <module>gibbon</module>
     <module>vertx-primer</module>
     <module>tomcat-primer</module>
     <module>spring-cloud-gateway-primer</module>
       <module>dubbo-primer</module>
+      <module>redis-primer</module>
+      <module>elastic-search</module>
   </modules>
 
   <name>java-advanced</name>
