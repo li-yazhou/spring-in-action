@@ -22,7 +22,7 @@ public class TestBeanAnnotation extends UnitTestBase {
     @Test
     public void testSay(){
         String beanName = "beanAnnotation";
-        String beanName2 = "bean";
+        String beanName2 = "springbean";
         BeanAnnotation bean = super.getBean(beanName);
         bean.say("this is a test");
 

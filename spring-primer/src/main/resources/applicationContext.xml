@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--id 和 name 的区别-->
+    <!--在 XML 配置中，我们可以看到，即可以通过 id 给 Bean 指定一个唯一标识符，也可以通过 name 来指定，大部分情况下这两个作用是一样的，有一个小小区别：-->
+    <!--name 支持取多个。多个 name 之间，用 , 隔开：-->
+    <!--通过 user、user1、user2、user3 都可以获取到当前对象-->
+    <!--<bean class="springbean.byxml.Book" id="book" name="book1,book2,book3"/>-->
+    <bean class="ioc.springbean.byxml.Book" id="book1"/>
+    <!--<bean class="springbean.byxml.Book" id="book2"/>-->
+</beans>
